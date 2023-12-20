@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+# remove certain files due to size and continued appearance
+.DS_store
+raw_data/
+
 # Distribution / packaging
 .Python
 build/
